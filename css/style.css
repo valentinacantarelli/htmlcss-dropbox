@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*common*/
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.btn {
+    display: inline-block;
+    line-height: normal;
+    background-color: #0061ff;
+    padding: 2px 8px;
+    vertical-align: middle;
+
+}
+a {
+    text-decoration: none;
+}
+/*typo*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*header*/
+header {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    
+}
+.col-left-header, .col-right-header{
+    float: left;
+    width: 50%;
+   
+    
+}
+.col-left-header {
+    width: calc(50%-20px);
+    padding-left: 20px;
+}
+
+.logo {
+    vertical-align: middle;
+    padding-right: 35px;
+}
+.nav-header-left{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-header-left li, .nav-header-right li{
+    display: inline-block;
+    
+}
+.nav-header-left li a, .nav-header-right li a {
+    
+    vertical-align: middle;
+    color: black;
+    font-size: 13px;
+    padding-right: 25px;
+
+}
+.inizia a {
+    color: white;
+    font-size: 13px;
+
+}
+.col-right-header{
+    text-align: right;
+    padding-right: 20px;
+    width: calc(50%- 20px);
+}
+
