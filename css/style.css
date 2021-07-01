@@ -27,6 +27,10 @@ a {
     width: 80%;
     margin: auto;
 }
+.smaller-section {
+    width: 70%;
+    margin: auto;
+}
 /*typo*/
 body {
     font-family: 'Open Sans', sans-serif;
@@ -68,12 +72,8 @@ header {
     font-size: 13px;
     font-weight: 600;
     padding-right: 25px;
-
 }
-.inizia a {
-    
 
-}
 .col-right-header{
     text-align: right;
     padding-right: 20px;
@@ -125,3 +125,21 @@ header {
     background-repeat: no-repeat ;
     right: 0;
 }
+/*prima section card*/
+.section-card {
+   
+    
+}
+.titolo-section-card {
+    float: left;
+    width: 100%;
+       
+}
+.radio-btn {
+    float: left;
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 20px;
+    
