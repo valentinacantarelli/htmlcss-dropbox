@@ -82,7 +82,7 @@ header {
 /*hero*/
 .hero {
     padding: 60px;
-    height: 600px;
+    height: 580px;
     background-color: #b4d0e7;
 }
 .titolo-hero {
@@ -91,11 +91,11 @@ header {
     font-weight:700;
 }
 .sezione-float-hero {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .col-left-hero {
     float: left;
-    width: 35%;
+    width: 30%;
 
 }
 .col-left-hero p{
@@ -112,4 +112,16 @@ header {
 .fa-arrow-down {
     margin-top: 30px;
     font-size: 30px;
+}
+.col-right-hero{
+    float: right;
+    width: 65%;    
+}
+.img-hero {
+    background-image: url('../img/img/jumbo.png');
+    background-size: cover;
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    right: 0;
 }
