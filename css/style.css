@@ -13,11 +13,15 @@
     display: inline-block;
     line-height: normal;
     background-color: #0061ff;
-    padding: 2px 8px;
+    padding: 1px 12px;
     vertical-align: middle;
+    
 }
 a {
     text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
 }
 .small-section  {
     width: 80%;
@@ -62,12 +66,12 @@ header {
     vertical-align: middle;
     color: black;
     font-size: 13px;
+    font-weight: 600;
     padding-right: 25px;
 
 }
 .inizia a {
-    color: white;
-    font-size: 13px;
+    
 
 }
 .col-right-header{
@@ -85,4 +89,27 @@ header {
     margin-top: 40px;
     font-size: 50px;
     font-weight:700;
+}
+.sezione-float-hero {
+    margin-top: 30px;
+}
+.col-left-hero {
+    float: left;
+    width: 35%;
+
+}
+.col-left-hero p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.btn-hero {
+    margin: 25px 0 10px 0;
+}
+.sottotitolo-hero {
+    font-size: 11px;
+    font-weight: 600;
+}
+.fa-arrow-down {
+    margin-top: 30px;
+    font-size: 30px;
 }
