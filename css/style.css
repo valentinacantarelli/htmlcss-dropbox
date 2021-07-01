@@ -15,10 +15,13 @@
     background-color: #0061ff;
     padding: 2px 8px;
     vertical-align: middle;
-
 }
 a {
     text-decoration: none;
+}
+.small-section  {
+    width: 80%;
+    margin: auto;
 }
 /*typo*/
 body {
@@ -31,13 +34,11 @@ header {
     line-height: 60px;
     position: fixed;
     top: 0;
-    
+    background-color: white;    
 }
 .col-left-header, .col-right-header{
     float: left;
-    width: 50%;
-   
-    
+    width: 50%;    
 }
 .col-left-header {
     width: calc(50%-20px);
@@ -74,4 +75,14 @@ header {
     padding-right: 20px;
     width: calc(50%- 20px);
 }
-
+/*hero*/
+.hero {
+    padding: 60px;
+    height: 600px;
+    background-color: #b4d0e7;
+}
+.titolo-hero {
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight:700;
+}
