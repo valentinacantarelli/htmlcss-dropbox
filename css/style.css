@@ -239,13 +239,19 @@ label{
     float: left;
 }
 .col-left-orizzontale {
-    width: 65%;
+    width: 70%;
 }
 .col-right-orizzontale {
-    width: 30%;
+    width: 25%;
 }
 .col-right-orizzontale {
-    margin-top: 25px;
-    
+    margin-top: 25px;        
 }
+.col-right-orizzontale, a {
+    font-size: 11px;
+    padding: 4px 15px;
+    text-align: center;
+}
+/*sezione orizzontale immagine/testo*/
+
     
