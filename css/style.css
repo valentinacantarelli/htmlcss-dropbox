@@ -14,8 +14,7 @@
     line-height: normal;
     background-color: #0061ff;
     padding: 1px 12px;
-    vertical-align: middle;
-    
+    vertical-align: middle;    
 }
 a {
     text-decoration: none;
@@ -42,7 +41,8 @@ header {
     line-height: 60px;
     position: fixed;
     top: 0;
-    background-color: white;    
+    background-color: white;  
+    z-index: 10;  
 }
 .col-left-header, .col-right-header{
     float: left;
@@ -52,7 +52,6 @@ header {
     width: calc(50%-20px);
     padding-left: 20px;
 }
-
 .logo {
     vertical-align: middle;
     padding-right: 35px;
@@ -66,7 +65,6 @@ header {
     
 }
 .nav-header-left li a, .nav-header-right li a {
-    
     vertical-align: middle;
     color: black;
     font-size: 13px;
@@ -82,8 +80,7 @@ header {
 /*hero*/
 .hero {
     padding: 60px;
-    height: 580px;
-    background-color: #b4d0e7;
+    background-color: #b4d0e7;    
 }
 .titolo-hero {
     margin-top: 40px;
@@ -96,7 +93,6 @@ header {
 .col-left-hero {
     float: left;
     width: 30%;
-
 }
 .col-left-hero p{
     font-size: 13px;
@@ -117,29 +113,40 @@ header {
     float: right;
     width: 65%;    
 }
-.img-hero {
-    background-image: url('../img/img/jumbo.png');
-    background-size: cover;
-    height: 600px;
-    background-size: 100%;
-    background-repeat: no-repeat ;
-    right: 0;
+.section-hero {
+    position: relative;
+    bottom: -100px;
+}
+.immagine-hero {
+    width: 100%;   
 }
 /*prima section card*/
 .section-card {
-   
+    position: relative;
+    height: 100%;
+    padding-top:60px ;
     
 }
 .titolo-section-card {
-    float: left;
+    position: absolute;
     width: 100%;
+    top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    
        
 }
 .radio-btn {
-    float: left;
     width: 100%;
     display: inline-block;
     font-size: 14px;
     font-weight: 600;
+    background-color: rebeccapurple;
+    left: 0;
+}
+
+label{
     padding-right: 20px;
+}
+
     
