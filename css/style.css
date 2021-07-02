@@ -141,5 +141,23 @@ header {
 label{
     padding-right: 20px;
 }
+/*prima riga colonne*/
+.row-1-col-left, .row-1-col-center, .row-1-col-right {
+    float: left;
+   /* width: c;*/
+    width: calc(100% / 3 - 60px);
+    border: 1px solid #d0d0d3;
+    padding: 8px;
+}
+.row-1-col-center {
+    margin:0 30px;
+}
+.titolo-card{
+    border: 1px solid #d0d0d3;
+    width: 100%;
+    text-align: center;
+}
+
+
 
     
