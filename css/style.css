@@ -143,15 +143,20 @@ label{
     padding-right: 20px;
 }
 /*prima riga colonne*/
+.prima-row {
+    
+}
 
 .row-1-col-left, .row-1-col-center, .row-1-col-right {
     float: left;
-    width: calc(100% / 3 - 60px);
+    width: calc(90% / 3);
     border: 1px solid #d0d0d3;
     padding: 0 20px;
+    min-height: 750px;
+    
 }
 .row-1-col-center {
-    margin:0 30px;
+    margin: 0 calc(10%/ 2)
 }
 .titolo-card{
     width: 100%;
@@ -217,6 +222,8 @@ label{
     padding: 8px 0;
 
 }
+
+
 .fa-check {
     color: #156dff;
 }
