@@ -33,6 +33,7 @@ a {
 /*typo*/
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
 }
 /*header*/
 header {
@@ -78,11 +79,11 @@ header {
 }
 /*hero*/
 .hero {
-    padding: 60px;
+    padding: 40px;
     background-color: #b4d0e7;    
 }
 .titolo-hero {
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 50px;
     font-weight:700;
 }
@@ -180,14 +181,38 @@ label{
     font-weight: 600;
 }
 .caratteristiche {
-    padding-top: 30px;
+    padding: 30px 0;
+    
 }
 .caratteristiche div {
     padding-bottom: 15px;
     font-size: 11px;
         
 }
-
+.prova-30-gg a {
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.prova-30-gg{
+    padding: 2px 30px;    
+}
+.sottotitolo-prova{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.link-prova{
+    text-decoration: underline;
+    color: #156dff;
+    font-size: 11px;
+}
+.small-hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 80%;
+}
 
 
     
