@@ -71,7 +71,6 @@ header {
     font-weight: 600;
     padding-right: 25px;
 }
-
 .col-right-header{
     text-align: right;
     padding-right: 20px;
@@ -115,7 +114,7 @@ header {
 }
 .section-hero {
     position: relative;
-    bottom: -100px;
+    bottom: -120px;
 }
 .immagine-hero {
     width: 100%;   
@@ -124,27 +123,21 @@ header {
 .section-card {
     position: relative;
     height: 100%;
-    padding-top:60px ;
-    
+    padding-top:100px ;    
 }
 .titolo-section-card {
-    position: absolute;
     width: 100%;
-    top: 100px;
     font-size: 30px;
     font-weight: 700;
-    
-       
+    padding-bottom: 45px;           
 }
 .radio-btn {
     width: 100%;
     display: inline-block;
     font-size: 14px;
     font-weight: 600;
-    background-color: rebeccapurple;
-    left: 0;
+    padding-bottom: 20px;    
 }
-
 label{
     padding-right: 20px;
 }
