@@ -463,4 +463,12 @@ footer {
     list-style-type: none;
     padding: 3px 0;
     font-size: 13px;
-    
+}
+/*bottom footer*/
+.bottom-footer> hr {
+    margin-top: 100px;
+    margin-right: 95%;
+}
+.bottom-footer {
+    padding-bottom: 50px;
+} 
