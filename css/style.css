@@ -350,22 +350,24 @@ label{
     transform: translate(-50%, -50%);    
 }
 /*colonna testo centrale*/
-/*.colonna-testo {
+.colonna-testo {
     float: left;
-    width: calc(80%- 720px);
+    width: calc(90% - 720px);
+    padding: 30px 35px;
    
 }
 .testo-designit {
     display: inline-block;
-    width: calc(80%- 720px);
+    
 }
 .logo-centrale {
-    width: 8%;
+    width: 30%;
     filter: invert(100%);
 }
-
-*/
-
+.autore{
+    padding: 30px 0;
+    font-size: 11px;
+}
 
 /*colonna destra*/
 .destra {
@@ -412,4 +414,25 @@ label{
     width: 30%; 
     text-align: center;
     
+}
+/*faq*/
+.faq {
+    margin-top: 80px;
+}
+.faq, .categoria {
+    padding-bottom: 40px;
+}
+.domande {
+    list-style-type: none;
+    font-weight: 900;
+    
+    display: inline-block;
+    float: left;
+}
+.fa-angle-down {
+    float: right;
+    text-align: center;
+}
+.riga-domande {
+    padding: 30px 0;
 }
