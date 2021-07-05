@@ -242,16 +242,40 @@ label{
     width: 70%;
 }
 .col-right-orizzontale {
-    width: 25%;
+    width: 22%;
 }
 .col-right-orizzontale {
     margin-top: 25px;        
 }
-.col-right-orizzontale, a {
+.col-right-orizzontale> a {
+    display: inline-block;
     font-size: 11px;
-    padding: 4px 15px;
+    padding: 4px 13px;
     text-align: center;
+
 }
 /*sezione orizzontale immagine/testo*/
+.section-img-testo {
+    position: relative;
+    margin-top: 80px;
+}
+.img-partner {
+    width: 50%;
+    float: left;
+}
+.partner-section {
+    float: left;
+    width: 35%;
+    margin-left: 40px;
 
-    
+} 
+.par-partner {
+    padding: 15px 0 20px 0;
+}
+.btn-partner {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 11px;
+    padding: 6px 10px;
+}
