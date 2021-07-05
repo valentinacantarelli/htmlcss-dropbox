@@ -314,7 +314,7 @@ label{
     height: 360px;
     position: relative; 
     float: left;  
-    background-color: pink; 
+     
 }
 .square {
     width: 180px;
@@ -350,7 +350,7 @@ label{
     transform: translate(-50%, -50%);    
 }
 /*colonna testo centrale*/
-.colonna-testo {
+/*.colonna-testo {
     float: left;
     width: calc(80%- 720px);
    
@@ -359,14 +359,18 @@ label{
     display: inline-block;
     width: calc(80%- 720px);
 }
-.destra {
-    float: right;
-}
 .logo-centrale {
     width: 8%;
     filter: invert(100%);
 }
+
+*/
+
+
 /*colonna destra*/
+.destra {
+    float: right;
+}
 .world-bicycle{
     background-color: #d5001f;
     top: 0;
