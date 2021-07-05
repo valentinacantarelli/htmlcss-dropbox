@@ -423,7 +423,7 @@ label{
     padding-bottom: 40px;
 }
 .domande {
-    list-style-type: none;
+    
     font-weight: 900;    
     display: inline-block;
     float: left;
@@ -442,4 +442,25 @@ label{
 .ultima-riga {
     border-bottom:1px solid #d0d0d3;
 }
+/*footer*/
+footer {
+    background-color: black;
+    width: 100%;
+    min-height: 400px;
+    margin-top: 50px;
+    color: white;
 }
+
+.titoli-footer {
+    font-size: 14px;
+}
+.colonna-footer {
+    float: left;
+    width: calc(100% / 5);
+    padding-top: 50px;
+}
+.lista-link> li{
+    list-style-type: none;
+    padding: 3px 0;
+    font-size: 13px;
+    
