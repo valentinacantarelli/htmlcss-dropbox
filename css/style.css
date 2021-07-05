@@ -33,7 +33,7 @@ a {
 /*typo*/
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
+    font-size: 13px;
 }
 /*header*/
 header {
@@ -295,7 +295,7 @@ label{
     margin: 0 calc(20%/ 2) ;
 }
 .seconda-row-business {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 /*sezione team/marchi */
 .sezione-marchi {
@@ -307,4 +307,48 @@ label{
 /*sezione fullpage*/
 .sezione-fullpage-marchi {
     margin-top: 30px;
+    
+}
+.prima-colonna-quadrati {
+    width: 360px;
+    height: 360px;
+    background-color: aqua;
+    position: relative;    
+}
+.square {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+}
+.designit {
+    background-color: #a2d39b;
+    top: 0;
+    left: 0; 
+    
+}
+.img-logo .desingit {
+    filter: invert(100%); 
+}
+.asu {
+    background-color: #61082b;
+    top: 0;
+    right: 0;
+}
+.uf {
+    background-color: #0093ce;
+    bottom: 0;
+    left: 0;
+}
+.topps {
+    background-color: #ff1c1c;
+    bottom: 0;
+    right: 0;
+}
+.img-logo {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
