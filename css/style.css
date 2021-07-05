@@ -387,3 +387,25 @@ label{
     bottom: 0;
     right: 0;
 }
+/*sezione fullpage porta dropbox*/
+.fullpage-azzurra {
+    background-color: #b4d0e7;
+    height: 250px;
+    padding-top: 100px;
+
+}
+.titolo-viola {
+    color: #61082b ;
+    float: left;
+    width: 50%;    
+}
+.btn-bianco {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 18px;
+    float: right;
+    width: 30%; 
+    text-align: center;
+    
+}
