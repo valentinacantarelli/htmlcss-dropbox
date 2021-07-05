@@ -163,7 +163,7 @@ label{
 }
 .top-section {
     border-top: 1px solid #d0d0d3 ;
-   /* padding-top: 20px;*/
+  
 }
 .categoria {
     font-size: 18px;
@@ -279,3 +279,19 @@ label{
     font-size: 11px;
     padding: 6px 10px;
 }
+/*sezione business*/
+.section-card-business {
+    margin-top: 80px;
+}
+/*prima riga*/
+.prima-card-business, .seconda-card-business, .terza-card-business {
+    float: left;
+    width: calc(80%/ 3);
+}
+.foto-card {
+    width: 100%;
+}
+.seconda-card-business {
+    margin: 0 calc(20%/ 2) ;
+}
+
