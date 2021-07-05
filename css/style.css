@@ -312,22 +312,20 @@ label{
 .prima-colonna-quadrati {
     width: 360px;
     height: 360px;
-    background-color: aqua;
-    position: relative;    
+    position: relative; 
+    float: left;  
+    background-color: pink; 
 }
 .square {
     width: 180px;
     height: 180px;
     position: absolute;
+    
 }
 .designit {
     background-color: #a2d39b;
     top: 0;
-    left: 0; 
-    
-}
-.img-logo .desingit {
-    filter: invert(100%); 
+    left: 0;     
 }
 .asu {
     background-color: #61082b;
@@ -349,6 +347,43 @@ label{
     width: 50%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);    
+}
+/*colonna testo centrale*/
+.colonna-testo {
+    float: left;
+    width: calc(80%- 720px);
+   
+}
+.testo-designit {
+    display: inline-block;
+    width: calc(80%- 720px);
+}
+.destra {
+    float: right;
+}
+.logo-centrale {
+    width: 8%;
+    filter: invert(100%);
+}
+/*colonna destra*/
+.world-bicycle{
+    background-color: #d5001f;
+    top: 0;
+    left: 0;
+}
+.hearst {
+    background-color: #b4d0e7;
+    top: 0;
+    right: 0;
+}
+.lonely-planet {
+    background-color: #0d2481;
+    bottom: 0;
+    left: 0;
+}
+.clear-channel {
+    background-color: #ffd830;
+    bottom: 0;
+    right: 0;
 }
