@@ -148,8 +148,7 @@ label{
     width: calc(90% / 3);
     border: 1px solid #d0d0d3;
     padding: 0 20px;
-    min-height: 750px;
-    
+    min-height: 750px;    
 }
 .row-1-col-center {
     margin: 0 calc(10%/ 2)
@@ -162,8 +161,7 @@ label{
     padding: 5px 0;
 }
 .top-section {
-    border-top: 1px solid #d0d0d3 ;
-  
+    border-top: 1px solid #d0d0d3 ;  
 }
 .categoria {
     font-size: 18px;
@@ -182,21 +180,20 @@ label{
     font-weight: 600;
 }
 .caratteristiche {
-    padding: 30px 0;
-    
+    padding: 30px 0;    
 }
 .caratteristiche div {
     padding-bottom: 15px;
-    font-size: 11px;
-        
+    font-size: 11px;        
 }
 .prova-30-gg a {
     font-size: 13px;
-    font-weight: 400;
-    
+    font-weight: 400;    
 }
 .prova-30-gg{
-    padding: 2px 30px;    
+    padding: 2px 40px;
+    text-align: center;
+       
 }
 .sottotitolo-prova{
     padding-top: 20px;
@@ -250,7 +247,7 @@ label{
 .col-right-orizzontale> a {
     display: inline-block;
     font-size: 11px;
-    padding: 4px 13px;
+    padding: 4px 18px;
     text-align: center;
 
 }
